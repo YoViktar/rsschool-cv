@@ -1,0 +1,36 @@
+body {
+  font-family: monospace;
+}
+.wrapper {
+  width: 50%;
+  margin: 0 auto;
+}
+img {
+  width: 200px;
+  height: 200px;
+}
+h1 {
+  font-size: 30px;
+}
+h2 {
+  text-decoration: underline;
+}
+.about {
+  font-size: 24px;
+}
+p {
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+ul {
+  font-size: 18px;
+}
+footer {
+  display: inline-block;
+
+}
+footer ul li{
+    display: inline;
+    margin-left: 50px;
+}
