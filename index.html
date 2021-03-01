@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
+    <!-- wrapper for center main block and header -->
+
     <div class="wrapper">
       <header>
         <img src="img.jpg" alt="avatar" />
@@ -21,21 +23,70 @@
         </p>
         <p>This cv will be updated in future, so please don`t be strict to me right now.</p>
         <h2>Skills:</h2>
-        <p>Woking to improve my skills every day! Right now it`s pretty basic.</p>
+        <p>Working to improve my skills every day! Right now it`s pretty basic.</p>
         <ul>
-          <li>Figma</li>
           <li>HTML</li>
           <li>CSS</li>
           <li>JS</li>
+          <li>Figma</li>
         </ul>
+        <!-- about me info -->
+
+        <section>
+          <h2>About Me:</h2>
+          <p class="about">Hi! My name is Victor and im learning web development.</p>
+          <p>
+            I easily can speak English, but it`s kind of hard for me to write. So please sorry for grammar mistakes in this text. I just started my journey to web-dev learning. I`m very high motivated and dedicated to my dream become a web-dev.
+            Because i really enjoy to develop things.
+          </p>
+          <p>This cv will be updated in future, so please don`t be strict to me right now.</p>
+        </section>
+
+        <!-- skills info -->
+
+        <section>
+          <h2>Skills:</h2>
+          <p>Working to improve my skills every day! Right now it`s pretty basic.</p>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JS</li>
+            <li>Figma</li>
+          </ul>
+        </section>
+
+        <!-- code example -->
+
         <h2>Code Example:</h2>
+        <pre>
+          <code>
+            function reverse(n) {
+              let result = "";
+              n = Math.abs(n);
+              result = n.toString().split("").reverse().join("");
+              return result;
+            };
+          </code>
+        </pre>
         <p>*Work in progress* :)</p>
         <h2>Education:</h2>
         <ul>
           <li>Belarusian Trade Economics University of Consumer Cooperatives</li>
           <li>Rsschool</li>
         </ul>
+
+        <!-- education info -->
+
+        <section>
+          <h2>Education:</h2>
+          <ul>
+            <li>Belarusian Trade Economics University of Consumer Cooperatives</li>
+            <li>Rsschool</li>
+          </ul>
+        </section>
       </main>
+      <!-- footer and contacts -->
+
       <footer>
         <h2>Contact Me</h2>
         <ul>
